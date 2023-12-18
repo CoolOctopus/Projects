@@ -1,0 +1,65 @@
+body {
+	position: relative;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.img-box-lg img {
+	width: 100%
+}
+
+.nav-bar {
+	position: fixed;
+    top: 60px;
+    width: calc(100% - 100px);
+    height: 100px;
+    margin: 0 50px;
+}
+
+.nav-bar a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.content {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 30px 100px;
+    margin-top: 150px;
+}
+
+.gallery-preview-box {
+	display: flex;
+}
+
+.column {
+	width: 33.333%
+}
+
+.img-box {
+	padding: 10px;
+	cursor: pointer;
+}
+
+.img-box:hover {
+	background-color: rgba(150, 115, 198, 1.0);
+}
+
+.img-box img {
+	width: 100%;
+}
+
+.choosed {
+	background-color: rgba(150, 115, 198, 1.0);
+}
+
+.hidden {
+	display: none;
+}
