@@ -8,6 +8,10 @@ body {
     z-index: -1;
 }
 
+img {
+	display: block;
+}
+
 .nav-bar {
 	position: fixed;
     top: 60px;
